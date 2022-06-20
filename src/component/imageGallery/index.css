@@ -15,7 +15,7 @@
     background-position: center;
     background-repeat: no-repeat;
     margin: 0 auto;
-    max-width: 100%;
+    overflow-wrap: break-word;
 }
 
 .pagination {
