@@ -1,0 +1,52 @@
+.images-container {
+ background-color: rgb(15, 6, 6);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.image-gallery-item {
+    max-width: 350px;
+    max-height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.image-title {
+    color: aliceblue;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+    margin: 10px 10px 5px 10px;
+
+}
+
+button {
+    padding: 5px 10px;
+    width: 100px;
+
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+}
